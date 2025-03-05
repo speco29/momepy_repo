@@ -9,7 +9,7 @@ This repository contains examples and experiments using [Momepy](https://docs.mo
 - [Examples](#examples)
 - [Experiments](#experiments)
 - [Contributing](#contributing)
-- [License](#license)
+
 
 ## Introduction
 
@@ -41,8 +41,6 @@ The experiments directory contains various experimental scripts and notebooks. T
 ## Contributing
 Contributions are welcome! If you have any examples, experiments, or improvements that you would like to share, please create a pull request.
 
-## License
-This repository is licensed under the MIT License. See the LICENSE file for more information.
 
 
 Feel free to customize it further based on your needs!
