@@ -35,3 +35,17 @@ Momepy is a powerful tool for analyzing urban morphology, already supporting Mor
 - Use `shapely` for geometric operations and polygon creation.
 - Leverage `geopandas` for managing spatial data efficiently.
 - Utilize existing momepy utilities wherever possible to avoid redundant code.
+
+### 5. Example Usage
+```python
+import momepy
+import geopandas as gpd
+
+# Load street network as GeoDataFrame
+streets = gpd.read_file("street_network.geojson")
+
+# Create Street-Based Tessellation
+blocks = momepy.StreetBasedTessellation(streets)
+
+# Visualize or analyze the resulting blocks
+blocks.plot()
