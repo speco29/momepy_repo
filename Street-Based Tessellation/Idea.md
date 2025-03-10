@@ -18,3 +18,20 @@ Momepy is a powerful tool for analyzing urban morphology, already supporting Mor
   - Optional: Additional natural barriers (e.g., rivers, railways).
 - **Output**: 
   - City blocks represented as polygons in a GeoDataFrame.
+
+### 2. Algorithm Design
+1. Parse input street network and additional barriers.
+2. Create a planar graph representation of the street network using a library like `networkx` or `osmnx`.
+3. Identify intersections and nodes to define block boundaries.
+4. Perform graph-based partitioning of space into blocks using intersections and edges.
+5. Convert resulting partitions into polygon geometries.
+
+### 3. Integration with momepy
+- Add a new class or function, e.g., `momepy.StreetBasedTessellation`.
+- Include parameters for customization (e.g., buffer size for barriers).
+- Ensure compatibility with existing tessellation methods for comparative analysis.
+
+### 4. Implementation Details
+- Use `shapely` for geometric operations and polygon creation.
+- Leverage `geopandas` for managing spatial data efficiently.
+- Utilize existing momepy utilities wherever possible to avoid redundant code.
