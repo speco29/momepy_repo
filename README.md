@@ -36,7 +36,7 @@ cd momepy-repo
 The examples directory contains various scripts and notebooks that demonstrate the usage of Momepy and NetworkX. These examples cover a range of topics from basic operations to more complex analyses.
 
 ## Experiments
-The experiments directory contains various experimental scripts and notebooks. These are used to test new ideas, explore different approaches, and experiment with the libraries' capabilities.
+The experiments directory contains various experimental scripts and notebooks. These are used to test new ideas, explore different approaches, and experiment with the libraries's capabilities.
 
 ## Contributing
 Contributions are welcome! If you have any examples, experiments, or improvements that you would like to share, please create a pull request.
