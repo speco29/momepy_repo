@@ -5,7 +5,7 @@ This repository contains examples and experiments using [Momepy](https://docs.mo
 ## Table of Contents        
   
 - [Introduction](#introduction) 
-- [Getting Started](#getting-started)
+- [Getting Started](#getting-started) 
 - [Examples](#examples)
 - [Experiments](#experiments)
 - [Contributing](#contributing)
