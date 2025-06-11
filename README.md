@@ -1,7 +1,7 @@
 # Momepy and NetworkX Experiments
  
 This repository contains examples and experiments using [Momepy](https://docs.momepy.org/en/stable/) and [NetworkX](https://networkx.github.io/). It is designed to store various scripts and notebooks that explore the capabilities of these powerful libraries for morphometric analysis and network analysis.   
-   
+    
 ## Table of Contents          
    
 - [Introduction](#introduction)   
