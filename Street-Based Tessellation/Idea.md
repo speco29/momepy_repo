@@ -1,5 +1,5 @@
 # Enhancing momepy: Adding Support for Street-Based Tessellation (ST)
-
+ 
 ## Overview  
 
 Momepy is a powerful tool for analyzing urban morphology, already supporting Morphological Tessellation (MT) and Enclosed Tessellation (ET). Adding Street-Based Tessellation (ST) will provide a new intuitive tessellation method, enabling the analysis of city blocks defined by natural barriers such as street networks, rivers, and railways.
